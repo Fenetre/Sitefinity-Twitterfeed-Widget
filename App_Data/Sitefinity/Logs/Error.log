@@ -1,0 +1,1120 @@
+----------------------------------------
+Timestamp: 3/2/2016 10:28:57 AM
+
+Message: HandlingInstanceID: 438987b4-384d-4e7a-bf21-d520eb520c25
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+03/02/2016 11:28:57
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 10:28:57 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-1-131013875295414695
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-1-131013875295414695
+
+ProcessId: 10732
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:9204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 10:28:57 AM
+
+Message: HandlingInstanceID: b8033199-0b1d-49a5-88e4-75f5aeefc1f5
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 11:28:57
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_158af568bcec48a591d0d919a47dff9d.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 10:28:57 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-1-131013875295414695
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-1-131013875295414695
+
+ProcessId: 10732
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:9204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 10:28:57 AM
+
+Message: HandlingInstanceID: ff83bab2-6d4f-4638-8b41-b35c1f7df0b3
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 11:28:57
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_158af568bcec48a591d0d919a47dff9d.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 10:28:57 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-1-131013875295414695
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-1-131013875295414695
+
+ProcessId: 10732
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:9204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 10:28:57 AM
+
+Message: HandlingInstanceID: 9026a594-7dbf-421a-acd8-f47479e57807
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 11:28:57
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_158af568bcec48a591d0d919a47dff9d.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 10:28:57 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-1-131013875295414695
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-1-131013875295414695
+
+ProcessId: 10732
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:9204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 10:28:57 AM
+
+Message: HandlingInstanceID: 9dd75ea2-35a3-4c9c-8f7c-d510940dbd02
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 11:28:57
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_158af568bcec48a591d0d919a47dff9d.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 10:28:57 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-1-131013875295414695
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-1-131013875295414695
+
+ProcessId: 10732
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:9204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 10:28:57 AM
+
+Message: HandlingInstanceID: cc307939-9108-48fa-8c08-e5a26407a36c
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 11:28:57
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_158af568bcec48a591d0d919a47dff9d.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 10:28:57 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-1-131013875295414695
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-1-131013875295414695
+
+ProcessId: 10732
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:9204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 10:28:57 AM
+
+Message: HandlingInstanceID: 47a00fb2-4260-413a-a6c1-251df17cf03f
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 11:28:57
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_158af568bcec48a591d0d919a47dff9d.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 10:28:57 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-1-131013875295414695
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-1-131013875295414695
+
+ProcessId: 10732
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:9204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 10:28:57 AM
+
+Message: HandlingInstanceID: 1949140c-4ccb-48d7-8b4d-25aa35a2a70a
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 11:28:57
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_158af568bcec48a591d0d919a47dff9d.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 10:28:57 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-1-131013875295414695
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-1-131013875295414695
+
+ProcessId: 10732
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:9204
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 11:07:23 AM
+
+Message: HandlingInstanceID: 1d03e2a4-1386-4fed-a992-b208442a41b5
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+03/02/2016 12:07:23
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 11:07:23 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-2-131013904397472789
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-2-131013904397472789
+
+ProcessId: 12004
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:14692
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 11:07:24 AM
+
+Message: HandlingInstanceID: 749c4bd6-f5b7-4b9e-a4ba-0ceeb2a9dde5
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 12:07:24
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_93e2fc18d086416c85fdb2a2ae85e231.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 11:07:24 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-2-131013904397472789
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-2-131013904397472789
+
+ProcessId: 12004
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:14692
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 11:07:24 AM
+
+Message: HandlingInstanceID: d750c7b6-783b-4333-a869-96a93875806e
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 12:07:24
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_93e2fc18d086416c85fdb2a2ae85e231.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 11:07:24 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-2-131013904397472789
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-2-131013904397472789
+
+ProcessId: 12004
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:14692
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 11:07:24 AM
+
+Message: HandlingInstanceID: 48196b63-5a5a-407e-87e7-e63760749692
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 12:07:24
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_93e2fc18d086416c85fdb2a2ae85e231.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 11:07:24 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-2-131013904397472789
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-2-131013904397472789
+
+ProcessId: 12004
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:14692
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 11:07:24 AM
+
+Message: HandlingInstanceID: 0e602507-45e2-4738-9f36-ff0f07ba506b
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 12:07:24
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_93e2fc18d086416c85fdb2a2ae85e231.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 11:07:24 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-2-131013904397472789
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-2-131013904397472789
+
+ProcessId: 12004
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:14692
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 11:07:24 AM
+
+Message: HandlingInstanceID: 221cfa14-b19e-4219-9b1a-b9b56193cba3
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 12:07:24
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_93e2fc18d086416c85fdb2a2ae85e231.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 11:07:24 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-2-131013904397472789
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-2-131013904397472789
+
+ProcessId: 12004
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:14692
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 11:07:24 AM
+
+Message: HandlingInstanceID: 0ce75d10-27a2-499d-86ff-2b25cad60539
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 12:07:24
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_93e2fc18d086416c85fdb2a2ae85e231.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 11:07:24 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-2-131013904397472789
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-2-131013904397472789
+
+ProcessId: 12004
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:14692
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/2/2016 11:07:24 AM
+
+Message: HandlingInstanceID: fea5ce33-1ccc-4ff7-bea6-312beab00487
+An exception of type 'System.TypeInitializationException' occurred and was caught.
+----------------------------------------------------------------------------------
+03/02/2016 12:07:24
+Type : System.TypeInitializationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The type initializer for 'Telerik.Sitefinity.Localization.Res' threw an exception.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+TypeName : Telerik.Sitefinity.Localization.Res
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
+HResult : -2146233036
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_93e2fc18d086416c85fdb2a2ae85e231.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : RETSINA
+TimeStamp : 3/2/2016 11:07:24 AM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5900.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : 840c72d7-2-131013904397472789
+ThreadIdentity : FENETRE\jessek
+WindowsIdentity : FENETRE\jessek
+	Inner Exception
+	---------------
+	Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Object reference not set to an instance of an object.
+	Source : Telerik.Sitefinity
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+	   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+	   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+	   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+	   at Telerik.Sitefinity.Data.ManagerBase`1..ctor(String providerName, String transactionName)
+	   at Telerik.Sitefinity.Localization.ResourceManager..ctor()
+	   at Telerik.Sitefinity.Localization.Res..cctor()
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: RETSINA
+
+App Domain: 840c72d7-2-131013904397472789
+
+ProcessId: 12004
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:14692
+
+Extended Properties: 
+----------------------------------------
