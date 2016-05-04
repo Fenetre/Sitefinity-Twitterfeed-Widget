@@ -22,9 +22,9 @@
 
 <p>Anyone is welcome to contribute to Fen&ecirc;tre Twitter Widget</p>
 
-<h2><strong>Changelog</strong></h2>
-
 <h2><strong>Releases</strong></h2>
+Latest version 
+Sitefinity 8.2.5900.0
 
 <h2><strong>Furthermore</strong></h2>
 
