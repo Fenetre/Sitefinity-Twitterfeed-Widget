@@ -12,7 +12,7 @@
 
 <h2><strong>Installation</strong></h2>
 
-<p><a href=https://github.com/Fenetre/Sitefinity-Twitterfeed-Widget/blob/master/Installation%20Guide%20Twitterfeed>You can download the installation guide on Github</a></p>
+<p><a href=https://github.com/Fenetre/Sitefinity-Twitterfeed-Widget/blob/master/Installation%20Guide%20Twitterfeed>You can download the installation guide on Github.</a></p>
 
 <h2><strong>Reporting bugs</strong></h2>
 
@@ -23,7 +23,7 @@
 <p>Anyone is welcome to contribute to Fen&ecirc;tre Twitter Widget</p>
 
 <h2><strong>Releases</strong></h2>
-<a href=https://github.com/Fenetre/Sitefinity-Twitterfeed-Widget/blob/master/Installation%20Guide%20Twitterfeed>Check the installation guide for the latest version</a></p>
+<a href=https://github.com/Fenetre/Sitefinity-Twitterfeed-Widget/blob/master/Installation%20Guide%20Twitterfeed>Check the installation guide for the latest version.</a></p>
 
 <h2><strong>Furthermore</strong></h2>
 
