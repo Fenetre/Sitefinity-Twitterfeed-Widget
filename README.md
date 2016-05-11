@@ -23,7 +23,7 @@
 <p>Anyone is welcome to contribute to Fen&ecirc;tre Twitter Widget</p>
 
 <h2><strong>Releases</strong></h2>
-<a href=https://github.com/Fenetre/Sitefinity-Twitterfeed-Widget/blob/master/Installation%20Guide%20Twitterfeed>Check the latest  release in the installation guideb</a></p>
+<a href=https://github.com/Fenetre/Sitefinity-Twitterfeed-Widget/blob/master/Installation%20Guide%20Twitterfeed>Check the latest  release in the installation guide</a></p>
 
 <h2><strong>Furthermore</strong></h2>
 
