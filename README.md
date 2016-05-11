@@ -16,7 +16,7 @@
 
 <h2><strong>Reporting bugs</strong></h2>
 
-<p>If you find an issue, please let u know here!</p>
+<p> <p><a href=https://github.com/Fenetre/Sitefinity-Twitterfeed-Widget/blob/master/Installation%20Guide%20Twitterfeed> If you find an issue, please let u know here!</a> 
 
 <h2><strong>Contributions</strong></h2>
 
