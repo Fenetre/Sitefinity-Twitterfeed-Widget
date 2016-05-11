@@ -12,7 +12,7 @@
 
 <h2><strong>Installation</strong></h2>
 
-<p>You can download the installation guide on our website</p>
+<p><a href=https://github.com/Fenetre/Sitefinity-Twitterfeed-Widget/blob/master/Installation%20Guide%20Twitterfeed>You can download the installation guide on Github</a></p>
 
 <h2><strong>Reporting bugs</strong></h2>
 
@@ -23,8 +23,7 @@
 <p>Anyone is welcome to contribute to Fen&ecirc;tre Twitter Widget</p>
 
 <h2><strong>Releases</strong></h2>
-Latest version 
-Sitefinity 8.2.5900.0
+<a href=https://github.com/Fenetre/Sitefinity-Twitterfeed-Widget/blob/master/Installation%20Guide%20Twitterfeed>Check the latest  release in the installation guideb</a></p>
 
 <h2><strong>Furthermore</strong></h2>
 
