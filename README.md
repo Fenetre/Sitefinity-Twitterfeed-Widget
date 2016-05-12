@@ -29,6 +29,6 @@
 
 <p>You want to connect Mailchimp to Sitefinity CMS with an easy to install widget? <a href=https://www.fenetre.nl/producten/telerik-sitefinity-widgets/sitefinity-mailchimp-widget/>Check our website for more information.<a/></p>
 
-<a href=https://github.com/Fenetre/Sitefinity-Form-Extension-Widget>Also you want to check out our other Sitefinity widget on Github.<a/></p>
+<a href=https://github.com/Fenetre/Sitefinity-Form-Extension-Widget>Or check out our other Sitefinity widget on Github.<a/></p>
 
 
