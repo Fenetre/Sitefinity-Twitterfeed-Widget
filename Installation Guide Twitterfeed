@@ -11,13 +11,14 @@ To load and edit the project into Visual Studio, please follow the following ste
 	 You can find these dll files in the bin folder of your Sitefinity website.
 
 To install the widgets, please follow the following steps:
-	1. Copy the following files from your ~/Sitefinity-Twitterfeed-Widget/bin folder:
+	1. Build the Fenetre.Sitefinity.Formhandler project.
+	2. Copy the following files from your ~/Sitefinity-Twitterfeed-Widget/bin folder:
 	   •	Fenetre.Sitefinity.FormHandler.dll
 	   •	Fenetre.Sitefinity.Twitterfeed.dll
 	   •	LinqToTwitter.dll
-	2. Paste the copied files in the bin directory of your Sitefinity project.
-	3. Restart your application.
-	4. The Fenêtre widget is automatically added to the pages Toolbox; in the section “Fenêtre Add-ons”.
+	3. Paste the copied files in the bin directory of your Sitefinity project.
+	4. Restart your application.
+	5. The Fenêtre widget is automatically added to the pages Toolbox; in the section “Fenêtre Add-ons”.
 
 
 Compatible with the following Sitefinity versions:
