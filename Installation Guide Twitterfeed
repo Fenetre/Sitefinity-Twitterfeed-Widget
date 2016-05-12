@@ -15,7 +15,7 @@ To install the widgets, please follow the following steps:
 	   •	Fenetre.Sitefinity.FormHandler.dll
 	   •	Fenetre.Sitefinity.Twitterfeed.dll
 	   •	LinqToTwitter.dll
-	2. Copy the extracted files to the bin directory of your Sitefinity project.
+	2. Paste the copied files in the bin directory of your Sitefinity project.
 	3. Restart your application.
 	4. The Fenêtre widget is automatically added to the pages Toolbox; in the section “Fenêtre Add-ons”.
 
