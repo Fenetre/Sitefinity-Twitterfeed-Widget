@@ -1,0 +1,6 @@
+C:\Projects\Fenetre.Sitefinity\Source\Fenetre.Sitefinity.OpenSource\Fenetre.Sitefinity.TwitterFeed\obj\9.0.6010\Fenetre.Sitefinity.TwitterFeed.csprojResolveAssemblyReference.cache
+C:\Projects\Fenetre.Sitefinity\Source\Fenetre.Sitefinity.OpenSource\Fenetre.Sitefinity.TwitterFeed\obj\9.0.6010\Fenetre.Sitefinity.TwitterFeed.Extensions.resources
+C:\Projects\Fenetre.Sitefinity\Source\Fenetre.Sitefinity.OpenSource\Fenetre.Sitefinity.TwitterFeed\obj\9.0.6010\Fenetre.Sitefinity.TwitterFeed.TwitterFeed.resources
+C:\Projects\Fenetre.Sitefinity\Source\Fenetre.Sitefinity.OpenSource\Fenetre.Sitefinity.TwitterFeed\obj\9.0.6010\Fenetre.Sitefinity.TwitterFeed.Extensions.nl.resources
+C:\Projects\Fenetre.Sitefinity\Source\Fenetre.Sitefinity.OpenSource\Fenetre.Sitefinity.TwitterFeed\obj\9.0.6010\Fenetre.Sitefinity.TwitterFeed.TwitterFeed.nl.resources
+C:\Projects\Fenetre.Sitefinity\Source\Fenetre.Sitefinity.OpenSource\Fenetre.Sitefinity.TwitterFeed\obj\9.0.6010\Fenetre.Sitefinity.TwitterFeed.csproj.GenerateResource.Cache
