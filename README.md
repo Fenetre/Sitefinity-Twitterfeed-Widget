@@ -1,6 +1,10 @@
 # Sitefinity-Twitterfeed-Widget
 <p>The Sitefinity Twitter add-on from Fen&ecirc;tre allows you to connect Sitefinity CMS with the Twitter. You can show your Tweets into a widgets<strong>. </strong>Build against the latest Twitter API version.</p>
 
+<h2>Deprecated</h2>
+
+<p>This repository is not actively maintained anymore. For Sitefinity extentions and support please contact <a href="https://www.fenetre.nl">Fenêtre Online  Solutions.</a></p>
+
 <h2>Features</h2>
 
 <ul>
